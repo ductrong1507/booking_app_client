@@ -1,0 +1,9 @@
+.search_page_content {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 20px;
+  align-items: start;
+  padding: 40px 0;
+}

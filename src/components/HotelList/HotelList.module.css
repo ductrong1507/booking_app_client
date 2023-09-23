@@ -1,0 +1,57 @@
+.hotel_list_container h1 {
+  padding: 20px 0;
+}
+
+.hotel_list {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.hotel_list_item {
+  cursor: pointer;
+}
+
+.hotel_list_item:hover .title {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.hotel_list_item img {
+  width: 100%;
+  height: 220px;
+  /* border-radius: 8px; */
+}
+
+.hotel_list_item .title {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.hotel_list_item .hotel_list_item_city {
+  color: #353535;
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.hotel_list_item .hotel_list_item_price {
+  margin-top: 8px;
+}
+
+.hotel_list_item .hotel_list_item_rate {
+  margin-top: 8px;
+}
+
+.hotel_list_item .hotel_list_item_rate span {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.rate_highlight {
+  background-color: #003580;
+  color: #fff;
+  padding: 4px 4px;
+  font-weight: bold;
+}

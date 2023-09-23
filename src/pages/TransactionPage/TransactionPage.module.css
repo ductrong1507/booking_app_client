@@ -1,0 +1,62 @@
+.table_wrap {
+  width: 80%;
+  margin: 80px auto;
+  overflow-x: auto;
+  font-weight: 500;
+}
+
+.table_wrap table,
+.table_wrap td,
+.table_wrap th {
+  border: 1px solid rgb(120, 120, 120);
+  text-align: left;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.table_wrap th {
+  background: #32a4c1;
+  color: #fff;
+}
+
+.table_wrap table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table_wrap th,
+.table_wrap td {
+  padding: 12px 12px;
+  white-space: nowrap;
+}
+
+.table_wrap .room {
+  max-width: 120px;
+  white-space: unset;
+}
+
+.table_wrap table tbody tr:nth-child(odd) {
+  background: rgb(220, 220, 220);
+  color: #000;
+}
+
+.table_wrap span {
+  color: #000;
+  font-weight: bold;
+}
+
+.table_wrap .booked_color {
+  background-color: #f69685;
+  padding: 6px 4px;
+  border-radius: 4px;
+}
+
+.table_wrap .checkin_color {
+  background-color: #39d139;
+  padding: 6px 4px;
+  border-radius: 4px;
+}
+.table_wrap .checkout_color {
+  background-color: #d3d0f2;
+  padding: 6px 4px;
+  border-radius: 4px;
+}

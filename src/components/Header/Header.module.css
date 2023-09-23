@@ -1,0 +1,150 @@
+#header {
+  padding: 40px 0;
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.header_content {
+  margin-bottom: 48px;
+  color: #fff;
+}
+
+.header_content h1 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.header_content p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.header_content button {
+  background-color: #0071c2;
+  color: #fff;
+  padding: 12px 12px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.header_form {
+  display: flex;
+  padding: 12px 30px;
+  background-color: #fff;
+  justify-content: space-between;
+  border: 3px solid #febd0a;
+  border-radius: 6px;
+  position: absolute;
+  top: 100%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+}
+
+.form_group {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 4px;
+  padding: 0 12px;
+}
+
+.form_group i {
+  color: #bdbdbd;
+  font-size: 20px;
+}
+
+.form_group .form_control {
+  padding: 4px;
+  display: block;
+  border: none;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.form_group .form_control option {
+  color: #bdbdbd;
+}
+
+.header_form_btn {
+  background-color: #0071c2;
+  color: #fff;
+  padding: 12px 16px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#form_group_date_picker {
+  position: relative;
+}
+
+.date_picker {
+  position: absolute;
+  top: 120%;
+  /* left: 0;
+  right: 0; */
+}
+
+#hidden {
+  display: none;
+}
+
+/* Phần thêm person và room */
+.headerSearchText {
+  color: lightgray;
+  cursor: pointer;
+  margin-left: 12px;
+}
+
+.options {
+  z-index: 2;
+  position: absolute;
+  top: 100%;
+  /* left: 0; */
+  /* right: 20%; */
+  background-color: white;
+  color: gray;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+}
+
+.optionItem {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+.optionCounter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  color: black;
+}
+
+.optionCounterButton {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #0071c2;
+  color: #0071c2;
+  cursor: pointer;
+  background-color: white;
+}
+
+.optionCounterButton:disabled {
+  cursor: not-allowed;
+}

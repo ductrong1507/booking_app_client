@@ -1,0 +1,30 @@
+#city_list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.city_item {
+  height: 250px;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+  padding: 24px 24px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.city_item_content {
+  color: #fff;
+}
+
+.city_item_content h2 {
+  margin-bottom: 4px;
+}
+
+.city_item_content p {
+  font-size: 16px;
+  font-weight: 600;
+}

@@ -1,0 +1,49 @@
+{
+  "status": true,
+  "message": "Tìm hotel theo yêu cầu!",
+  "result": [
+    {
+      "_id": "6311bf37f2fce6ea18172fb6",
+      "__v": 0,
+      "address": "289-291 Ly Tu Trong Street, Ben Thanh Ward, District 1, District 1, Ho Chi Minh City, Vietnam",
+      "cheapestPrice": 350,
+      "city": "Ho Chi Minh",
+      "desc": "Get your trip off to a great start with a stay at this property, which offers free Wi-Fi in all rooms. Strategically situated in District 1, allowing you access and proximity to local attractions and sights. Don't leave before paying a visit to the famous War Remnants Museum. Rated with 4 stars, this high-quality property provides guests with access to massage, restaurant and fitness center on-site.",
+      "distance": "640",
+      "featured": true,
+      "name": "Alagon Saigon Hotel & Spa",
+      "photos": [
+        "https://q-xx.bstatic.com/xdata/images/hotel/840x460/342349064.jpg?k=d91e6cc100ae3214c81d7e8ebaaba95adb9b6d66b3cb491a2bacbb162ee749df&o=",
+        "https://q-xx.bstatic.com/xdata/images/hotel/840x460/342349110.jpg?k=5d9ebde5a24c290fd34ae061f3c456d0978c72b1e0e9a52f4e108be8983f24f1&o=",
+        "https://q-xx.bstatic.com/xdata/images/hotel/840x460/342349111.jpg?k=40e4775e81abb65403ac305f04a7dd8e5ad889f5c33151f763e4ed1af3a63e7a&o="
+      ],
+      "rooms": [
+        {
+          "_id": "6311c083f2fce6ea18172fba",
+          "__v": 0,
+          "createdAt": "2022-09-02T08:36:19.990Z",
+          "desc": "Pay nothing until September 04, 2022",
+          "maxPeople": 2,
+          "price": 350,
+          "roomNumbers": [101, 102],
+          "title": "Budget Double Room",
+          "updatedAt": "2022-09-02T08:36:19.990Z"
+        },
+        {
+          "_id": "6311c0a8f2fce6ea18172fc3",
+          "__v": 0,
+          "createdAt": "2022-09-02T08:36:56.388Z",
+          "desc": "Free cancellation before September 06, 2022",
+          "maxPeople": 2,
+          "price": 350,
+          "roomNumbers": [202, 203, 205],
+          "title": "Budget Twin Room",
+          "updatedAt": "2022-09-02T08:36:56.388Z"
+        }
+      ],
+      "title": "Alagon Saigon Hotel & Spa",
+      "type": "Apartment",
+      "rating": 5
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+#footer {
+  width: 80%;
+  margin: auto;
+  padding: 12px 0 40px 0;
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.footer_item a {
+  display: block;
+  color: #003580;
+  margin: 16px 0;
+  font-size: 14px;
+  text-decoration: none;
+}

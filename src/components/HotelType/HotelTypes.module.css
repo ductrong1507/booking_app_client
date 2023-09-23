@@ -1,0 +1,15 @@
+.hotel_type_container h1 {
+  padding: 20px 0;
+}
+
+.hotel_type_list {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.hotel_type_item img {
+  width: 100%;
+  height: 140px;
+  border-radius: 8px;
+}
